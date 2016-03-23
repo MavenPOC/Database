@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sql
+    driver="oracle.jdbc.driver.OracleDriver"
+    url="jdbc:oracle:thin:@localhost:1521:MyDB"
+    userid="hr"
+    password="hr" src="/build.sql"
+/>
