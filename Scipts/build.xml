@@ -7,7 +7,7 @@
     driver="oracle.jdbc.driver.OracleDriver"
     url="jdbc:oracle:thin:@localhost:1521:MyDB"
     userid="hr"
-    password="hr" src="/build.sql"
+    password="hr" src="./Scipts/build.sql"
 />
    </target>
    
