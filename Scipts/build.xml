@@ -2,12 +2,19 @@
 
 <project name="Hello World Project" default="info">
    
+   <path id="antclasspath">
+    <fileset dir="lib">
+        <include name="*.jar"/>
+    </fileset>
+</path>
+   
    <target name="sql">
      <sql
     driver="oracle.jdbc.OracleDriver"
     url="jdbc:oracle:thin:@localhost:1521:MyDB"
     userid="hr"
     password="hr" src="./build.sql"
+    classpathref="antclasspath"
 />
    </target>
    
