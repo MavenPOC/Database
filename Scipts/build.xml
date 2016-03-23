@@ -1,8 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<sql
+<project name="Hello World Project" default="info">
+   
+   <target name="sql">
+     <sql
     driver="oracle.jdbc.driver.OracleDriver"
     url="jdbc:oracle:thin:@localhost:1521:MyDB"
     userid="hr"
     password="hr" src="/build.sql"
 />
+   </target>
+   
+</project>
+
